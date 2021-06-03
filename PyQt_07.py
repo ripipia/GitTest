@@ -5,6 +5,8 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 #from PyQt5.QtCore import Qt
 
+#테트삼아 수정합니다.
+
 def save_csv(_vel, _ang, _listX, _listY):
     outFp = open("C:/Temp/ProjectileMotion.csv", "w")
     temp = "속도," + str(_vel) + ",\n"
