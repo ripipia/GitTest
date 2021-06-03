@@ -7,6 +7,7 @@ from PyQt5.QtGui import *
 
 #테트삼아 수정합니다.
 #테스트삼아 또 수정 합니다.
+#Revert7
 
 def save_csv(_vel, _ang, _listX, _listY):
     outFp = open("C:/Temp/ProjectileMotion.csv", "w")
